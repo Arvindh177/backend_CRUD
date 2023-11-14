@@ -18,7 +18,7 @@ mongoose
 //VdeFyjed6b5nl9X2
 
 
-const employeeRoute = require('../backend/routes/employee.route')
+const employeeRoute = require('./routes/employee.route.js');
 const app = express();
 app.use(bodyParser.json());
 app.use(
